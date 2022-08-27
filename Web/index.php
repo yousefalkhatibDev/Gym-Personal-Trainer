@@ -5,7 +5,7 @@ session_start();
 include("connection.php");
 include("functions.php");
 
-// $con for connection
+// $con for connection checkss if the user is logged in and connects the user to the database
 $user_data = check_login($con);
 
 ?>

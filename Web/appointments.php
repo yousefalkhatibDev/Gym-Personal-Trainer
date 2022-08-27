@@ -135,6 +135,7 @@ $appointments = mysqli_query($con, $queryGet);
                     print_r($result['time']);
                     echo "</td>";
                     echo "<td>";
+                    //delete
                     echo "<a href='appointments.php?click=1&appointment_id={$result['appointment_id']}' class='delete-button'>";
                     echo "Delete";
                     echo "</a>";
