@@ -1,0 +1,118 @@
+.background-image4 {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/background4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* header */
+
+.background-image4 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.background-image4 .header .header-h1 {
+    color: white;
+    font-size: 30px;
+}
+
+/* header */
+
+.register-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.container .register-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .register-social {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-bottom: 25px;
+}
+
+.container .register-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .register-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .register-email .input-group input:focus,
+.container .register-email .input-group input:valid {
+    border-color: rgba(244, 128, 13, 0.527);
+}
+
+.container .register-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: rgba(244, 128, 13, 0.527);
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .register-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: rgba(244, 128, 13, 0.8);
+}
+
+/* media queries */
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+
+    .container .register-social {
+        display: block;
+    }
+
+    .container .register-social a {
+        display: block;
+    }
+}
+
+/* media queries */

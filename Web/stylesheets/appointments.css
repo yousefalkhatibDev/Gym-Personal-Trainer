@@ -1,0 +1,220 @@
+.background-image5 {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/background5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* header */
+
+.background-image5 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.background-image5 .header .header-h1 {
+    color: white;
+}
+
+/* header */
+
+/* form */
+
+.appointment-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.container .appointment-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .appointment-form .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .appointment-form .input-group input {
+    width: 49%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .appointment-form .input-group input:focus,
+.container .appointment-form .input-group input:valid {
+    border-color: rgba(244, 128, 13, 0.527);
+}
+
+.container .appointment-form .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: rgba(244, 128, 13, 0.527);
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 26px;
+    transition: .3s;
+}
+
+.container .appointment-form .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: rgba(244, 128, 13, 0.8);
+}
+
+/* form */
+
+/* html table */
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(244, 128, 13, 0.3);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container table {
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+/* html table */
+
+/* button */
+
+.delete-button {
+    background-color: rgb(199, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+.delete-button:hover {
+    background-color: rgb(161, 10, 10);
+    transform: translateY(-2px);
+    transition: 0.2s ease-in;
+}
+
+.delete-button {
+    background-color: rgb(199, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+.delete-button:hover {
+    background-color: rgb(161, 10, 10);
+    transform: translateY(-2px);
+    transition: 0.2s ease-in;
+}
+
+.update-button {
+    background-color: rgb(30, 185, 50);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+.update-button:hover {
+    background-color: rgb(30, 130, 50);
+    transform: translateY(-2px);
+    transition: 0.2s ease-in;
+}
+
+/* button */
+
+/* media queries */
+
+@media(max-width: 820px) {
+    .background-image5 .header {
+        height: 100%;
+    }
+}
+
+@media(max-width: 650px) {
+    .table-container table {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .background-image5 .header h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+        height: 500px;
+    }
+
+    .container .appointment-form .input-group {
+        margin-bottom: 80px;
+    }
+
+    .container .appointment-form .input-group input {
+        margin-bottom: 15px;
+    }
+
+    .container .appointment-form .input-group .btn {
+        margin-top: 100px;
+    }
+
+    .container .appointment-form .input-group input {
+        width: 100%;
+    }
+}
+
+/* media queries */
